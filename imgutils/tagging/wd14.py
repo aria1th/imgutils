@@ -26,6 +26,7 @@ MOAT_MODEL_REPO = "SmilingWolf/wd-v1-4-moat-tagger-v2"
 CONV_V3_MODEL_REPO = 'SmilingWolf/wd-convnext-tagger-v3'
 SWIN_V3_MODEL_REPO = 'SmilingWolf/wd-swinv2-tagger-v3'
 VIT_V3_MODEL_REPO = 'SmilingWolf/wd-vit-tagger-v3'
+VIT_LARGE_MODEL_REPO = "SmilingWolf/wd-vit-large-tagger-v3"
 MODEL_FILENAME = "model.onnx"
 LABEL_FILENAME = "selected_tags.csv"
 
@@ -37,7 +38,7 @@ MODEL_NAMES = {
     "ConvNextV2": CONV2_MODEL_REPO,
     "ViT": VIT_MODEL_REPO,
     "MOAT": MOAT_MODEL_REPO,
-
+    "ViT-Large": VIT_LARGE_MODEL_REPO,
     "SwinV2_v3": SWIN_V3_MODEL_REPO,
     "ConvNext_v3": CONV_V3_MODEL_REPO,
     "ViT_v3": VIT_V3_MODEL_REPO,
